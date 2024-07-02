@@ -1,0 +1,14 @@
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\bin\Debug\net8.0\Study_Cs_02.exe
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\bin\Debug\net8.0\Study_Cs_02.deps.json
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\bin\Debug\net8.0\Study_Cs_02.runtimeconfig.json
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\bin\Debug\net8.0\Study_Cs_02.dll
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\bin\Debug\net8.0\Study_Cs_02.pdb
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\obj\Debug\net8.0\Study_Cs_02.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\obj\Debug\net8.0\Study_Cs_02.AssemblyInfoInputs.cache
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\obj\Debug\net8.0\Study_Cs_02.AssemblyInfo.cs
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\obj\Debug\net8.0\Study_Cs_02.csproj.CoreCompileInputs.cache
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\obj\Debug\net8.0\Study_Cs_02.dll
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\obj\Debug\net8.0\refint\Study_Cs_02.dll
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\obj\Debug\net8.0\Study_Cs_02.pdb
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\obj\Debug\net8.0\Study_Cs_02.genruntimeconfig.cache
+F:\Code\Cshap\Study_Cs_02\Study_Cs_02\obj\Debug\net8.0\ref\Study_Cs_02.dll
