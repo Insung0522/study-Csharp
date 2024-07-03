@@ -26,7 +26,7 @@ class MainClass
     {
         Person p1;
         p1 = new Person();
-        p1.Name = "서준";
+        p1.Name = "서준테스트";
         p1.Eat();
     }
 }
