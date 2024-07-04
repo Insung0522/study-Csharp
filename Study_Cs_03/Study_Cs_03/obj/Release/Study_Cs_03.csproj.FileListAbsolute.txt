@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\Study_Cs_03\Study_Cs_03\bin\Release\Study_Cs_03.exe.config
+C:\Users\USER\source\repos\Study_Cs_03\Study_Cs_03\bin\Release\Study_Cs_03.exe
+C:\Users\USER\source\repos\Study_Cs_03\Study_Cs_03\bin\Release\Study_Cs_03.pdb
+C:\Users\USER\source\repos\Study_Cs_03\Study_Cs_03\obj\Release\Study_Cs_03.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Study_Cs_03\Study_Cs_03\obj\Release\Study_Cs_03.exe
+C:\Users\USER\source\repos\Study_Cs_03\Study_Cs_03\obj\Release\Study_Cs_03.pdb
