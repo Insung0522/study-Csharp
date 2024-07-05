@@ -59,6 +59,16 @@ namespace Study_Cs_05
 
             //해시테이블 Key-Value
             Console.WriteLine("\n해시테이블");
+            Hashtable ht = new Hashtable();
+
+            ht["apple"] = "사과";
+            ht["banana"] = "바나나";
+            ht["orange"] = "오렌지";
+
+
+            Console.WriteLine(ht["apple"]);
+            Console.WriteLine(ht["banana"]);
+            Console.WriteLine(ht["orange"]);
         }
     }
 }
