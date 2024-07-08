@@ -27,7 +27,6 @@ namespace Study_Cs_09_Calculator
         double secondOperand = 0;
         double tmpOperand = 0;
         string errMessage = "0으로는 나눌 수 없습니다.";
-        //double type의 나눗셈 연산에서는 0으로 나눌 경우 Infinity를 반환하기 때문에 예외가 발생하지 않음
         //private void Button_Click(object sender, EventArgs e)
         //{
         //    if(operatorChangeFlag == true)
@@ -74,7 +73,7 @@ namespace Study_Cs_09_Calculator
                     }
                 case Operators.DIVIDE:
                     {
-                        //try-catch 예외처리 안됨. 확인 필요
+                        //double type의 나눗셈 연산에서는 0으로 나눌 경우 Infinity를 반환하기 때문에 예외가 발생하지 않음
                         //try
                         //{
                         //    firstOperand = firstOperand / secondOperand;
@@ -84,7 +83,7 @@ namespace Study_Cs_09_Calculator
                         //{
                         //    printNum.Text = "예외 : " + error.Message;
                         //}
-                        if(secondOperand == 0)
+                        if (secondOperand == 0)
                         {
                             printNum.Text = errMessage;
                         }
