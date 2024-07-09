@@ -22,7 +22,7 @@ namespace Study_Cs_OpenCV_08_ContourRelatedFunctions_1
             Point[][] contours;
             HierarchyIndex[] hierarchy;
 
-            Cv2.InRange(src, new Scalar(0, 127, 127), new Scalar(100, 255, 255), yellow);
+            Cv2.InRange(src, new Scalar(0, 137, 137), new Scalar(100, 255, 255), yellow);
             Cv2.FindContours(yellow, out contours, out hierarchy, RetrievalModes.Tree, ContourApproximationModes.ApproxTC89KCOS);
 
 
