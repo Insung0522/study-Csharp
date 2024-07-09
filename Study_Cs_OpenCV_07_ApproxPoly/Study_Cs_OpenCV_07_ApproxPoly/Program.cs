@@ -49,6 +49,7 @@ namespace Study_Cs_OpenCV_07_ApproxPoly
             Cv2.DrawContours(dst, new_contours, -1, new Scalar(255, 0, 0), 2, LineTypes.AntiAlias, null, 1);
             Cv2.ImShow("dst", dst);
             Cv2.WaitKey(0);
+            //이메일 변경 수정
         }
     }
 }
