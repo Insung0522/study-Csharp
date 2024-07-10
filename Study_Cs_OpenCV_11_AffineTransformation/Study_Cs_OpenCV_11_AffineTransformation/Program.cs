@@ -31,7 +31,8 @@ namespace Study_Cs_OpenCV_11_AffineTransformation
             //변환 후의 픽셀 좌표를 계싼하기 위해서는 미지수 a00 a01 a10 a11 b0 b1의 값을 알아야 함
             //여섯 개의 미지수를 구하기 위해 세 개의 좌표를 활용해 미지수를 계산
 
-            Mat src = new Mat("wine.jpg");
+            //Mat src = new Mat("wine.jpg");
+            Mat src = new Mat("snow.jpg");
             Mat dst = new Mat();
 
 
@@ -49,8 +50,8 @@ namespace Study_Cs_OpenCV_11_AffineTransformation
 
             List<Point2f> dst_pts = new List<Point2f>()
             {
-               new Point2f(100.0f, 100.0f),
-               new Point2f(100.0f, src.Height),
+               new Point2f(300.0f, 300.0f),
+               new Point2f(300.0f, src.Height),
                new Point2f(src.Width - 400.0f, src.Height - 200.0f)
             };
 
