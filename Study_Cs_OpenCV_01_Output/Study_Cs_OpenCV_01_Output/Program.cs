@@ -21,6 +21,7 @@ namespace Study_Cs_OpenCV_01_Output
             {
                 video.Read(frame);
                 Cv2.ImShow("frame", frame);
+                Cv2.WaitKey(1000);
             }
 
             frame.Dispose();
