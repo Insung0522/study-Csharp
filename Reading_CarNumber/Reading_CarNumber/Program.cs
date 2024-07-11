@@ -9,6 +9,10 @@ namespace Reading_CarNumber
 {
     class Program
     {
+        const int MIN_AREA = 250;
+        const int MAX_AREA = 400;
+        const double MIN_RATIO = 1;
+        const double MAX_RATIO = 1.3;
         static void Main(string[] args)
         {
             //카메라 출력
@@ -79,17 +83,20 @@ namespace Reading_CarNumber
                 Console.WriteLine("Height : " + boundingRect.Height);
                 Console.WriteLine("Width : " + boundingRect.Width);
 
-                double ratio = boundingRect.Width / boundingRect.Height;
+                double ratio = (double)boundingRect.Width / (double)boundingRect.Height;
+                double area2 = boundingRect.Width * boundingRect.Height;
                 Console.WriteLine("Ratio : " + ratio);
+                Console.WriteLine("Area : " + area2);
 
-                if (ratio != 1) continue;
+                if (ratio < MIN_RATIO || ratio > MAX_RATIO || area2 < MIN_AREA || area2 > MAX_AREA) continue;
                 new_contours.Add(p);
+
                 Cv2.Rectangle(drawing, boundingRect, Scalar.White, 2);
                 Cv2.ImShow("drawing", drawing);
-                //Cv2.WaitKey(0);
+                Cv2.WaitKey(0);
 
             }
-            
+
             //Cv2.DrawContours(drawing, new_contours, -1, new Scalar(255, 0, 0), 2, LineTypes.AntiAlias, null, 1);
 
             Cv2.ImShow("drawing", drawing);
