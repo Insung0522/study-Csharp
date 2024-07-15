@@ -98,7 +98,7 @@ namespace Reading_CarNumber
             }
 
             //Cv2.DrawContours(drawing, new_contours, -1, new Scalar(255, 0, 0), 2, LineTypes.AntiAlias, null, 1);
-
+            //test
             Cv2.ImShow("drawing", drawing);
             Cv2.WaitKey(0);
             Cv2.DestroyAllWindows();
